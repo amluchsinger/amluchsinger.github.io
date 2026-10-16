@@ -1,6 +1,0 @@
-@article{test2025,
-  author = {Austin Luchsinger},
-  title = {Test Publication},
-  journal = {Test Journal},
-  year = {2025}
-}
