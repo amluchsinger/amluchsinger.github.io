@@ -1,53 +1,136 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>amluchsinger</title>
-    <style>
-      :root {
-        color-scheme: light dark;
-        --bg: #0f172a;
-        --fg: #e2e8f0;
-        --muted: #94a3b8;
-        --card: rgba(148, 163, 184, 0.08);
-      }
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Austin Luchsinger</title>
+  <link rel="stylesheet" href="css/style.css?v=20260925-monogram">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_molecular_16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_molecular_32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_molecular-180.png">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <!-- Navbar -->
+  <nav class="navbar" aria-label="Main navigation">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">Austin Luchsinger</a>
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">Home</a></li>
+        <li class="nav-item"><a href="teaching.html" class="nav-link">Teaching</a></li>
+        <li class="nav-item"><a href="research.html" class="nav-link">Research</a></li>
+        <li class="nav-item"><a href="pubs.html" class="nav-link">Publications</a></li>
+      </ul>
+    </div>
+  </nav>
 
-      body {
-        margin: 0;
-        min-height: 100vh;
-        display: grid;
-        place-items: center;
-        background: linear-gradient(135deg, #020617, #111827 45%, #0f172a);
-        color: var(--fg);
-        font-family: Arial, Helvetica, sans-serif;
-      }
+  <header class="profile-header">
+    <div class="container header-grid">
+      <img class="portrait" src="assets/profile_new.png" alt="Austin Luchsinger" width="150" height="150">
+      <div>
+        <div class="profile-eyebrow">
+          <p class="eyebrow">Computer Science · UTRGV</p>
+          <button class="monogram-button" type="button" aria-label="AL tile monogram" title="AL tile monogram" disabled>
+            <svg viewBox="0 0 144 96" width="78" height="52" aria-hidden="true" focusable="false">
+              <rect class="monogram-tile" x="27" y="13" width="8.5" height="8.5" rx="1.2" data-col="1" data-row="0" />
+              <rect class="monogram-tile" x="37" y="13" width="8.5" height="8.5" rx="1.2" data-col="2" data-row="0" />
+              <rect class="monogram-tile" x="47" y="13" width="8.5" height="8.5" rx="1.2" data-col="3" data-row="0" />
+              <rect class="monogram-tile" x="77" y="13" width="8.5" height="8.5" rx="1.2" data-col="6" data-row="0" />
+              <rect class="monogram-tile" x="17" y="23" width="8.5" height="8.5" rx="1.2" data-col="0" data-row="1" />
+              <rect class="monogram-tile" x="57" y="23" width="8.5" height="8.5" rx="1.2" data-col="4" data-row="1" />
+              <rect class="monogram-tile" x="77" y="23" width="8.5" height="8.5" rx="1.2" data-col="6" data-row="1" />
+              <rect class="monogram-tile" x="17" y="33" width="8.5" height="8.5" rx="1.2" data-col="0" data-row="2" />
+              <rect class="monogram-tile" x="57" y="33" width="8.5" height="8.5" rx="1.2" data-col="4" data-row="2" />
+              <rect class="monogram-tile" x="77" y="33" width="8.5" height="8.5" rx="1.2" data-col="6" data-row="2" />
+              <rect class="monogram-tile" x="17" y="43" width="8.5" height="8.5" rx="1.2" data-col="0" data-row="3" />
+              <rect class="monogram-tile" x="27" y="43" width="8.5" height="8.5" rx="1.2" data-col="1" data-row="3" />
+              <rect class="monogram-tile" x="37" y="43" width="8.5" height="8.5" rx="1.2" data-col="2" data-row="3" />
+              <rect class="monogram-tile" x="47" y="43" width="8.5" height="8.5" rx="1.2" data-col="3" data-row="3" />
+              <rect class="monogram-tile" x="57" y="43" width="8.5" height="8.5" rx="1.2" data-col="4" data-row="3" />
+              <rect class="monogram-tile" x="77" y="43" width="8.5" height="8.5" rx="1.2" data-col="6" data-row="3" />
+              <rect class="monogram-tile" x="17" y="53" width="8.5" height="8.5" rx="1.2" data-col="0" data-row="4" />
+              <rect class="monogram-tile" x="57" y="53" width="8.5" height="8.5" rx="1.2" data-col="4" data-row="4" />
+              <rect class="monogram-tile" x="77" y="53" width="8.5" height="8.5" rx="1.2" data-col="6" data-row="4" />
+              <rect class="monogram-tile" x="17" y="63" width="8.5" height="8.5" rx="1.2" data-col="0" data-row="5" />
+              <rect class="monogram-tile" x="57" y="63" width="8.5" height="8.5" rx="1.2" data-col="4" data-row="5" />
+              <rect class="monogram-tile" x="77" y="63" width="8.5" height="8.5" rx="1.2" data-col="6" data-row="5" />
+              <rect class="monogram-tile" x="17" y="73" width="8.5" height="8.5" rx="1.2" data-col="0" data-row="6" />
+              <rect class="monogram-tile" x="57" y="73" width="8.5" height="8.5" rx="1.2" data-col="4" data-row="6" />
+              <rect class="monogram-tile" x="77" y="73" width="8.5" height="8.5" rx="1.2" data-col="6" data-row="6" />
+              <rect class="monogram-tile" x="87" y="73" width="8.5" height="8.5" rx="1.2" data-col="7" data-row="6" />
+              <rect class="monogram-tile" x="97" y="73" width="8.5" height="8.5" rx="1.2" data-col="8" data-row="6" />
+              <rect class="monogram-tile" x="107" y="73" width="8.5" height="8.5" rx="1.2" data-col="9" data-row="6" />
+              <rect class="monogram-tile" x="117" y="73" width="8.5" height="8.5" rx="1.2" data-col="10" data-row="6" />
+            </svg>
+            <span class="monogram-caption" aria-hidden="true">AL</span>
+          </button>
+          <span class="visually-hidden monogram-status" role="status" aria-live="polite"></span>
+        </div>
+        <h1>Austin Luchsinger</h1>
+        <p class="profile-role">Assistant Professor</p>
+        <div class="profile-links">
+          <a href="docs/Luchsinger_CV.pdf">Curriculum Vitae</a>
+          <a href="https://scholar.google.com/citations?user=GlZS3_YAAAAJ&amp;hl=en&amp;oi=ao">Google Scholar</a>
+        </div>
+      </div>
+    <aside class="contact-panel" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <p>Department of Computer Science<br>The University of Texas Rio Grande Valley</p>
+      <p>1201 W. University Drive<br>Edinburg, Texas 78539-2999</p>
+      <dl>
+        <dt>Office</dt><dd>EIEAB 3.246</dd>
+        <dt>Office hours</dt><dd>Tuesday &amp; Thursday<br>9–11 a.m. and 2–4 p.m.</dd>
+        <dt>Phone</dt><dd><a href="tel:+19566657970">956-665-7970</a></dd>
+        <dt>Email</dt><dd><a href="mailto:austin.luchsinger@utrgv.edu">austin.luchsinger@utrgv.edu</a></dd>
+      </dl>
+    </aside>
+    </div>
+  </header>
 
-      main {
-        text-align: center;
-        padding: 2rem;
-        border: 1px solid rgba(148, 163, 184, 0.2);
-        border-radius: 16px;
-        background: var(--card);
-        box-shadow: 0 20px 40px rgba(15, 23, 42, 0.35);
-      }
+  <!-- Main -->
+  <main id="main" class="container home-layout">
+    <div class="home-content">
+    <section>
+      <h2>Welcome</h2>
+      <p>
+        I am an Assistant Professor in the Department of Computer Science at The University of Texas Rio Grande Valley.
+        My research focuses on unconventional models of computation, including chemical reaction networks,
+        molecular computing, and algorithmic self-assembly.
+      </p>
+    </section>
 
-      h1 {
-        margin: 0 0 0.75rem;
-        font-size: clamp(2rem, 5vw, 4rem);
-      }
+    <section>
+      <h2>My Bio</h2>
+      <p>
+        I earned my Ph.D. in Electrical and Computer Engineering from the University of Texas at Austin
+        in August 2024. Before that, I completed my M.S. in Computer Science at the University of Texas
+        Rio Grande Valley in May 2020 and my B.S. in Computer Science there in May 2018.
+      </p>
+    </section>
 
-      p {
-        margin: 0;
-        color: var(--muted);
-        font-size: 1.05rem;
-      }
-    </style>
-  </head>
-  <body>
-    <main>
-      <h1>Hello from amluchsinger.github.io</h1>
-      <p>Your GitHub Pages site is live and ready for content.</p>
-    </main>
-  </body>
+    <section>
+      <h2>Opportunities</h2>
+      <p>
+        I am currently recruiting motivated PhD students to join my research group at UTRGV. 
+        The ideal candidate is intellectually curious and self-driven, with a strong interest in 
+        abstract theoretical models of computation. A background in algorithms, discrete mathematics, 
+        and formal proofs is preferred but not strictly required.
+      </p>
+      <p>
+        If you are interested, please email me with a brief introduction, your CV, 
+        and any relevant research experience or coursework.
+      </p>
+    </section>
+    </div>
+
+  </main>
+
+  <footer class="container">
+    <p>&copy; 2026 Austin Luchsinger | Made with ChatGPT</p>
+  </footer>
+  <script src="js/monogram.js" defer></script>
+</body>
 </html>

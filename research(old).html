@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Research | Austin Luchsinger</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_molecular_16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_molecular_32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_molecular-180.png">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">Austin Luchsinger</a>
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="teaching.html" class="nav-link">Teaching</a></li>
+        <li class="nav-item"><a href="research.html" class="nav-link active">Research</a></li>
+        <li class="nav-item"><a href="pubs.html" class="nav-link">Publications</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <!-- <header>
+    <div class="container">
+      <h1>Research Interests</h1>
+    </div>
+  </header> -->
+
+  <!-- Main -->
+  <main class="container">
+    <p>
+      I have a broad range of research interests that can all be categorized as <strong>unconventional computation</strong>. 
+      Generally, I am interested in taking ideas from traditional areas like information theory, computational complexity, thermodynamics, 
+      and the theory of computation, and using those ideas to study abstract mathematical models which roughly represent some natural phenomenon.
+      Some particular topics are molecular computing (via kinetics and thermodynamics), algorithmic self-assembly, robot motion planning, and reversible computing.
+    </p>
+
+    <section>
+      <h2>Chemical Reaction Networks (CRNs)</h2>
+      <p>
+        Chemical Reaction Networks (CRNs) are abstract mathematical models of interacting chemical species, where reactions describe how collections of molecules transform into one another over time. They provide a powerful framework for studying molecular computation because they capture both the dynamics of real chemical systems and the logic of distributed algorithms. CRNs can be interpreted kinetically, as systems evolving through stochastic or deterministic reaction pathways, or computationally, as programs that process information encoded in molecule counts. My research studies the expressive power of CRNs, including which behaviors can be simulated efficiently across different CRN variants, how restrictions on reaction types affect computational complexity, and how CRNs relate to classical models such as Petri nets and vector addition systems.
+      </p>
+    </section>
+
+    <section>
+      <h2>Thermodynamic Binding Networks (TBNs)</h2>
+      <p>
+        Thermodynamic Binding Networks (TBNs) are equilibrium models of molecular computation that focus on what structures are energetically favored rather than how those structures form over time. In a TBN, monomers bind through complementary domains to form polymers, and stable outcomes are determined by minimizing free energy through a balance of enthalpy (bond formation) and entropy (number of separate complexes). Unlike kinetic CRN models, TBNs abstract away reaction order and instead emphasize thermodynamic possibility, making them especially useful for studying self-organization in DNA nanotechnology. My work investigates the expressive limits of TBNs, their relationship to more abstract thermodynamic models such as Thermodynamic Affinity Networks (TANs), and the complexity of predicting stable configurations and constrained reachability in these systems.
+      </p>
+    </section>  
+
+    <section>
+      <h2>Tile Self-Assembly</h2>
+      <p>
+        Tile self-assembly studies how simple square components with programmable binding rules can spontaneously organize into complex shapes and patterns without centralized control. These models, inspired by DNA tile nanotechnology, treat each tile as a computational unit whose local interactions collectively produce global structure. Tile systems provide a rich setting for exploring algorithmic growth, shape construction, and the fundamental relationship between geometry and computation. My research in this area examines how limited tile sets can generate arbitrary structures, how constraints such as temperature, repulsion, or signal passing alter assembly power, and how self-assembling systems can simulate computational processes in highly parallel and distributed ways.
+      </p>
+    </section>
+
+    <section>
+      <h2>Robot Motion Planning</h2>
+      <p>
+        Robot motion planning in my work focuses on highly constrained systems in which large numbers of simple robots move under uniform global control signals rather than independent commands. In these models, every robot may receive the same directional instruction simultaneously, creating challenging coordination problems where obstacles, geometry, and swarm interactions determine what motions are possible. These systems are motivated by applications in microrobotics, programmable matter, and swarm control, and they reveal deep connections between geometry, algorithm design, and computational hardness. My research explores the complexity of relocation, reconfiguration, and shape formation in such swarms, including identifying which planning problems are tractable and which are computationally intractable.
+      </p>
+    </section>
+
+    <section>
+      <h2>Collaborators</h2>
+      <p>
+        I have been fortunate to collaborate with: Jose Balanza-Martinez, Keenan Breik, David Caballero,
+        Angel Adrian Cantu, Cameron Chalk, David Doty, Luis Angel Garcia, Timothy Gomez, Arturo Gonzalez,
+        Sarfraz Khurshid, Cesar Lozano, Eric Martinez, Fernando Martinez, Eduardo Medina, Arnoldo Ramirez,
+        Rene Reyes, Robert Schweller, David Soloveichik, Marko Vasic, Andrew Winslow, Tim Wylie.
+      </p>
+    </section>
+  </main>
+
+  <footer class="container">
+    <p>&copy; 2025 Austin Luchsinger | Made with ChatGPT</p>
+  </footer>
+</body>
+</html>

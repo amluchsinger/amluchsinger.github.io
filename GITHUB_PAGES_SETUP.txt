@@ -1,0 +1,97 @@
+GITHUB PAGES TRANSFER — Austin Luchsinger
+Prepared October 15, 2026
+
+PACKAGE CONTENTS
+This is based on the latest files in our shared workspace, including the new
+portrait, CV, publications, collaborator list, local course schedule, and slides.
+Changes made only on your faculty server since our last edits are not included.
+Temporary research drafts and old backup HTML pages are omitted. All current
+site pages, images, documents, and slides are included.
+
+1. CHOOSE A REPOSITORY
+For a personal homepage, use a public repository named USERNAME.github.io,
+replacing USERNAME with your actual GitHub username. Its address will be:
+https://USERNAME.github.io/
+
+An existing repository with another name also works. Its default address is:
+https://USERNAME.github.io/REPOSITORY/
+The relative site links support either layout. No domain purchase is required.
+If the repository already contains a site or custom domain, preserve a backup
+and review its existing Pages settings and CNAME before replacing files.
+
+2. COPY THE FILES (GITHUB DESKTOP RECOMMENDED)
+Install GitHub Desktop from https://desktop.github.com/ and sign in.
+Create the public repository on GitHub, initialized with a README if it is new.
+In GitHub Desktop, choose File → Clone Repository and select that repository.
+Open its local folder in Finder.
+Extract github-pages-site.zip. Copy the CONTENTS of github-pages-site into the
+cloned repository folder, merging folders and replacing the initial README.
+Do not put the enclosing github-pages-site folder inside the repository.
+Do not upload the ZIP itself as the website.
+
+The repository root must contain:
+  index.html
+  research.html
+  teaching.html
+  pubs.html
+  .nojekyll
+  assets/
+  classes/
+  css/
+  docs/
+  js/
+  slides/
+  prepare_site.py
+  ...and the remaining packaged files.
+
+Finder hides dotfiles. Press Command+Shift+. to show them, and include .nojekyll
+and .gitignore. Avoid copying or replacing the clone's own .git directory.
+This package contains no .git directory.
+
+In GitHub Desktop, review the changed files, enter a commit summary such as
+'Migrate personal website', click Commit to main, then Push origin.
+If the repository uses a differently named branch, use that branch consistently.
+
+Why Desktop: slides/Luchsinger_Masters_Thesis.pptx is approximately 32 MB.
+GitHub's browser uploader allows at most 25 MiB per file; normal Git uploads
+support this file without Git LFS. Keep the slides folder in the upload.
+
+3. ENABLE GITHUB PAGES
+On GitHub, open the repository → Settings → Pages.
+Under Build and deployment:
+  Source: Deploy from a branch
+  Branch: main (or the branch containing your files)
+  Folder: / (root)
+Click Save. Do not select /docs: that folder holds your CV, not the homepage.
+No custom GitHub Actions workflow is required. GitHub manages the Pages deploy.
+Check the Actions tab for the Pages build, then use the Visit site link in
+Settings → Pages. The initial deployment may take several minutes.
+
+4. CHECK THE PUBLISHED SITE
+Open the address GitHub provides, not the github.com repository file viewer.
+Check Home and the new portrait; the CV download; Teaching and both current
+course pages; Research and its paper links; Publications, filters, sorting,
+and bibliography download. Test a class page directly and refresh it.
+GitHub Pages paths are case-sensitive: retain Fall2026.html capitalization.
+The publications page reads assets/mypubs.bib, with an embedded fallback.
+Fonts and the existing publications renderer still use external CDN resources.
+Course syllabi, Google Drive materials, and other external readings remain links.
+One reading formerly hosted on faculty.utrgv.edu now uses its DOI instead.
+
+5. FUTURE EDITS
+Edit the files in your cloned repository, then commit and push with Desktop.
+For bibliography edits, run python3 prepare_site.py from the repository folder
+before committing; include assets/mypubs.bib and generated pubs.html together.
+To add a semester, follow classes/README.md. Schedules are now local HTML.
+
+6. FINISH THE MOVE
+Update your university profile, email signature, CV source, Google Scholar,
+and other profiles that point to the old URL. Links printed inside existing PDFs
+or slides were not rewritten. If UTRGV permits it, leave a redirect or prominent
+new-address notice at your old homepage until the faculty server shuts down.
+A GitHub site cannot redirect requests arriving at the old university server.
+
+OFFICIAL DOCUMENTATION
+https://docs.github.com/en/pages/quickstart
+https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository

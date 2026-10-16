@@ -1,0 +1,373 @@
+%%%%%%%%%%%%% 2017 %%%%%%%%%%%%%
+
+@Inproceedings{Luchsinger2017,
+    author="Luchsinger, Austin    and Schweller, Robert    and Wylie, Tim",
+    title="Self-assembly of Shapes at Constant Scale Using Repulsive Forces",
+    bookTitle="Unconventional Computation and Natural Computation: 16th International Conference",
+    year="2017",
+    publisher="Springer International Publishing",
+    address="Cham",
+    pages="82--97",
+    series = {UCNC'17},
+    isbn="978-3-319-58187-3",
+    doi="10.1007/978-3-319-58187-3_7",
+    url="https://doi.org/10.1007/978-3-319-58187-3_7"
+}
+
+%%%%%%%%%%%%% 2018 %%%%%%%%%%%%%
+
+@InProceedings{Chalk:2018:ESA,
+    author =	{Cameron Chalk and Austin Luchsinger and Robert Schweller and Tim Wylie},
+    title =	{{Self-Assembly of Any Shape with Constant Tile Types using High Temperature}},
+    booktitle =	{26th Annual European Symposium on Algorithms (ESA 2018)},
+    pages =	{14:1--14:14},
+    series =	{Leibniz International Proceedings in Informatics (LIPIcs)},
+    ISBN =	{978-3-95977-081-1},
+    ISSN =	{1868-8969},
+    year =	{2018},
+    volume =	{112},
+    editor =	{Yossi Azar and Hannah Bast and Grzegorz Herman},
+    publisher =	{Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik},
+    address =	{Dagstuhl, Germany},
+    URL =		{http://drops.dagstuhl.de/opus/volltexte/2018/9477},
+    URN =		{urn:nbn:de:0030-drops-94773},
+    doi =		{10.4230/LIPIcs.ESA.2018.14}
+}
+
+@InProceedings{Chalk:2018:DNA,
+    author="Chalk, Cameron and Luchsinger, Austin and Martinez, Eric and Schweller, Robert and Winslow, Andrew and Wylie, Tim",
+    editor="Doty, David and Dietz, Hendrik",
+    title="Freezing Simulates Non-freezing Tile Automata",
+    booktitle="DNA Computing and Molecular Programming",
+    year="2018",
+    publisher="Springer International Publishing",
+    address="Cham",
+    pages="155--172",
+    isbn="978-3-030-00030-1"
+}
+
+@inproceedings{Cantu:2018:JCDCGGG,
+    title={Tile Pattern-Building Games on a Grid are PSPACE-complete (Short Abstract)},
+    author={Angel A. Cantu and Arturo Gonzalez and Cesar Lozano and Austin Luchsinger and Eduardo Medina and Fernando Martinez and Arnoldo Ramirez and Tim Wylie},
+    booktitle={$21^{st}$ Japan Conference on Discrete and Computational Geometry, Graphs, and Games},
+    series = {JCDCG$^{3}$'19},
+    year={2018},
+    pages = {18-21}
+}
+
+
+%%%%%%%%%%%%% 2019 %%%%%%%%%%%%%
+@inproceedings{FullTilt2019,
+    author = {Jose Balanza-Martinez and Austin Luchsinger and David Caballero and Rene Reyes and Angel A. Cantu and Robert Schweller and Luis Angel Garcia and Tim Wylie},
+    title = {Full Tilt: Universal Constructors for General Shapes with Uniform External Forces},
+    booktitle = {Proc. of the $30^{th}$ Annual ACM-SIAM Symposium on Discrete Algorithms},
+    series={SODA'19},
+    pages = {2689-2708},
+    doi = {10.1137/1.9781611975482.167},
+    URL = {https://epubs.siam.org/doi/abs/10.1137/1.9781611975482.167},
+    eprint = {https://epubs.siam.org/doi/pdf/10.1137/1.9781611975482.167},
+    year={2019}
+}
+
+
+@Article{Luchsinger2019,
+    author="Luchsinger, Austin    and Schweller, Robert    and Wylie, Tim",
+    title="Self-assembly of shapes at constant scale using repulsive forces",
+    journal="Natural Computing",
+    year="2019",
+    month="Mar",
+    day="01",
+    volume="18",
+    number="1",
+    pages="93--105",
+    issn="1572-9796",
+    doi="10.1007/s11047-018-9707-9",
+    url="https://doi.org/10.1007/s11047-018-9707-9"
+}
+
+
+@inproceedings{Cantu:2019:ICALP,
+    author =	{Angel A. Cantu and Austin Luchsinger and Robert Schweller and Tim Wylie},
+    title =	{{Covert Computation in Self-Assembled Circuits}},
+    booktitle =	{46th International Colloquium on Automata, Languages, and Programming (ICALP 2019)},
+    pages =	{31:1--31:14},
+    series =	{Leibniz International Proceedings in Informatics (LIPIcs)},
+    ISBN =	{978-3-95977-109-2},
+    ISSN =	{1868-8969},
+    year =	{2019},
+    volume =	{132},
+    editor =	{Christel Baier and Ioannis Chatzigiannakis and Paola Flocchini and Stefano Leonardi},
+    publisher =	{Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik},
+    address =	{Dagstuhl, Germany},
+    URL =		{http://drops.dagstuhl.de/opus/volltexte/2019/10607},
+    URN =		{urn:nbn:de:0030-drops-106075},
+    doi =		{10.4230/LIPIcs.ICALP.2019.31},
+    annote =	{Keywords: self-assembly, covert circuits}
+}
+
+
+@inproceedings{Balanza:2019:JCDCGGG,
+    title={Relocation with Uniform External Control in Limited Directions (Short Abstract)},
+    author={Jose Balanza-Martinez and David Caballero and Angel A. Cantu and Timothy Gomez and Austin Luchsinger and Robert Schweller and Tim Wylie},
+    booktitle={The $22^{nd}$ Japan Conference on Discrete and Computational Geometry, Graphs, and Games},
+    series = {JCDCG$^{3}$'19},
+    pages = {39-40},
+    year={2019}
+}
+
+%new
+@misc{Cantu:2019:ARXIV,
+    author = {Angel A. Cantu and Austin Luchsinger and Robert Schweller and Tim Wylie},
+    title =	{{Covert Computation in Self-Assembled Circuits}},
+    year =	{2019},
+    note={arXiv:1908.06068}
+}
+
+%new
+@misc{Balanza:2019:ARXIV,
+    title={Full Tilt: Universal Constructors for General Shapes with Uniform External Forces},
+    author={Jose Balanza-Martinez and David Caballero and Angel Cantu and Luis Garcia and Timothy Gomez and Austin Luchsinger and Rene Reyes and Robert Schweller and Tim Wylie},
+    note = {arXiv:1907.06741},
+    year={2019}
+}
+
+
+
+%%% 2020 %%%%%%%%%%%
+%new
+@article{Caballero:2020:JIP,
+    title={Hardness of Reconfiguring Robot Swarms with Uniform External Control in Limited Directions},
+    author={David Caballero and Angel A. Cantu and Timothy Gomez and Austin Luchsinger and Robert Schweller and Tim Wylie},
+    journal = {Journal of Information Processing},
+    year={2020},
+    volume = {28},
+    pages = {782-290}
+}
+
+@inproceedings{Cantu:2020:ISAAC,
+    title={Signal Passing Self-Assembly Simulates Tile Automata},
+    author={Angel A. Cantu and Austin Luchsinger and Robert Schweller and Tim Wylie},
+    booktitle = {Proceedings of the 31st International Symposium on Algorithms and Computation},
+    series = {ISAAC'20},
+    pages = {53:1-53:17},
+    year={2020}
+}
+
+%new
+@inproceedings{Caballero:2020:CCCG1,
+    title={Relocating Units in Robot Swarms with Uniform Control Signals is PSPACE-Complete},
+    author={David Caballero and Angel A. Cantu and Timothy Gomez and Austin Luchsinger and Robert Schweller and Tim Wylie},
+    booktitle = {Proceedings of the 32nd Canadian Conference on Computational Geometry},
+    series = {CCCG'20},
+    pages = {49-55},
+    year={2020}
+}
+
+%new
+@inproceedings{Caballero:2020:CCCG2,
+    title={Building Patterned Shapes in Robot Swarms with Uniform Control Signals},
+    author={David Caballero and Angel A. Cantu and Timothy Gomez and Austin Luchsinger and Robert Schweller and Tim Wylie},
+    booktitle = {Proceedings of the 32nd Canadian Conference on Computational Geometry},
+    series = {CCCG'20},
+    pages = {59-62},
+    year={2020}
+}
+
+%new
+@inproceedings{Balanza:2020:SODA,
+    author    = {Jose Balanza{-}Martinez and Timothy Gomez and David Caballero and Austin Luchsinger and Angel A. Cantu and Rene Reyes and Mauricio Flores and Robert T. Schweller and Tim Wylie},
+    title     = {Hierarchical Shape Construction and Complexity for Slidable Polyominoes under Uniform External Forces},
+    booktitle = {Proc. of the 2020 {ACM-SIAM} Symposium on Discrete Algorithms},
+    series = {SODA'20},
+    pages     = {2625--2641},
+    year      = {2020},
+    url       = {https://doi.org/10.1137/1.9781611975994.160},
+    doi       = {10.1137/1.9781611975994.160}
+}
+
+
+%new
+@misc{Caballero:2020:ARXIV:JCDCG3,
+    title={Hardness of Reconfiguring Robot Swarms with Uniform External Control in Limited Directions},
+    author={David Caballero and Angel A. Cantu and Timothy Gomez and Austin Luchsinger and Robert Schweller and Tim Wylie},
+    note = {arXiv:2003.13097},
+    year={2020}
+}
+
+
+
+%%%%%%%%%2021%%%%%%%%%%%%
+%new
+@article{Cantu:2021:A,
+    author = {Angel A. Cantu and Austin Luchsinger and Robert Schweller and Tim Wylie},
+    title =	{{Covert Computation in Self-Assembled Circuits}},
+    year =	{2021},
+    journal={Algorithmica},
+    volume = {83},
+    pages = {531–552},
+    doi = {https://doi.org/10.1007/s00453-020-00764-w}
+}
+
+@article{Caballero:2021:UCNC_NC,
+    title = {Fast Reconfiguration of Robot Swarms with Uniform Control Signals},
+    author = {David Caballero and Angel A. Cantu and Timothy Gomez and Austin Luchsinger and Robert Schweller and Tim Wylie} ,
+    journal = {Natural Computing},
+    year = {2021},
+    volume = {20},
+    pages = {659-669}
+}
+
+@inproceedings{Caballero:2021:TJCDCG3,
+    title={Unit Tilt Row Relocation in a Square (Short Abstract)},
+    author = {David Caballero and Angel A. Cantu and Timothy Gomez and Austin Luchsinger and Robert Schweller and Tim Wylie} ,
+    booktitle = {Proceedings of the 23rd Thailand-Japan Conference on Discrete and Computational Geometry, Graphs, and Games},
+    series = {TJCDCG3'2020+1},
+    pages = {122-123},
+    year={2021}
+}
+
+@article{Caballero:2020:ARXIV:JCDCG3,
+   title={Hardness of Reconfiguring Robot Swarms with Uniform External Control in Limited Directions},
+   author={David Caballero and Angel A. Cantu and Timothy Gomez and Austin Luchsinger and Robert Schweller and Tim Wylie},
+   year={2020},
+   eprint={2003.13097},
+   archivePrefix={arXiv},
+   primaryClass={cs.CG},
+   note={arxiv:2003.13097},
+   journal = {ArXiv e-prints}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%2022
+@inproceedings{luchsinger2022brief,
+  title={Brief announcement: Barrier-1 reachability for thermodynamic binding networks is PSPACE-complete},
+  author={Luchsinger, Austin},
+  booktitle={1st Symposium on Algorithmic Foundations of Dynamic Networks (SAND 2022)},
+  pages={24--1},
+  year={2022},
+  organization={Schloss Dagstuhl--Leibniz-Zentrum f{\"u}r Informatik}
+}
+
+@article{vasic2022programming,
+  title={Programming and training rate-independent chemical reaction networks},
+  author={Vasi{\'c}, Marko and Chalk, Cameron and Luchsinger, Austin and Khurshid, Sarfraz and Soloveichik, David},
+  journal={Proceedings of the National Academy of Sciences},
+  volume={119},
+  number={24},
+  pages={e2111552119},
+  year={2022},
+  publisher={National Academy of Sciences}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%2023
+
+@inproceedings{Caballero:2023:UCNC,
+    title={Uniform Robot Relocation is Hard in only two Directions even without Obstacles},
+    author={David Caballero and Angel A. Cantu and Timothy Gomez and Austin Luchsinger and Robert Schweller and Tim Wylie},
+    booktitle = {Proceedings of the 20th International Conference on Unconventional Computation and Natural Computation},
+    series = {UCNC'23},
+    pages = {},
+    year={2023},
+    note = {to appear}
+}
+
+@inproceedings{luchsinger2023optimal,
+  title={Optimal Information Encoding in Chemical Reaction Networks},
+  author={Luchsinger, Austin and Doty, David and Soloveichik, David},
+  booktitle={29th International Conference on DNA Computing and Molecular Programming (DNA 29)(2023)},
+  pages={9--1},
+  year={2023},
+  organization={Schloss Dagstuhl--Leibniz-Zentrum f{\"u}r Informatik}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%2024
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%2025
+
+@InProceedings{Fu:2025:SAND,
+    author = {Fu, Bin and Gomez, Timothy and Knobel, Ryan and Luchsinger, Austin and Massie, Aiden and Rodriguez, Marco and Salinas, Adrian and Schweller, Robert and Wylie, Tim},
+    title =	{{Brief Announcement: Reachability in Deletion-Only Chemical Reaction Networks}},
+    booktitle =	{4th Symposium on Algorithmic Foundations of Dynamic Networks (SAND 2025)},
+    pages =	{23:1--23:6},
+    series =	{Leibniz International Proceedings in Informatics (LIPIcs)},
+    ISBN =	{978-3-95977-368-3},
+    ISSN =	{1868-8969},
+    year =	{2025},
+    volume =	{330},
+    editor =	{Meeks, Kitty and Scheideler, Christian},
+    publisher =	{Schloss Dagstuhl -- Leibniz-Zentrum f{\"u}r Informatik},
+    address =	{Dagstuhl, Germany},
+    URN =		{urn:nbn:de:0030-drops-230768},
+    doi =		{10.4230/LIPIcs.SAND.2025.23}
+}
+
+@inproceedings{Luchsinger:2025:UCNC,
+    title={Polynomial Simulations of CRN Models with Trimolecular Void Step-Cycle CRNs},
+    author={Austin Luchsinger and Aiden Massie and Robert Schweller and Evan Tomai and Tim Wylie},
+    booktitle = {Proceedings of the 22nd International Conference on Unconventional Computing and Natural Computing},
+    series = {UCNC'25},
+    pages = {},
+    year={2025}
+}
+
+
+@inproceedings{Bajaj:2025:ISAAC,
+    title={Polynomial Equivalence of Extended Chemical Reaction Models},
+    author={Divya Bajaj and Jose-Luis Castellanos and Ryan Knobel and Austin Luchsinger and Aiden Massie and Adrian Salinas and Pablo Santos and Ramiro Santos and Robert Schweller and Tim Wylie},
+    booktitle = {Proceedings of the International Symposium on Algorithms and Computation},
+    series = {ISAAC'25},
+    pages = {},
+    year={2025}
+}
+
+@InProceedings{Fu:2025:DNA,
+  author =	{Fu, Bin and Gomez, Timothy and Knobel, Ryan and Luchsinger, Austin and Massie, Aiden and Rodriguez, Marco and Salinas, Adrian and Schweller, Robert and Wylie, Tim},
+  title =	{{Reachability in Deletion-Only Chemical Reaction Networks}},
+  booktitle =	{31st International Conference on DNA Computing and Molecular Programming (DNA 31)},
+  pages =	{3:1--3:21},
+  series =	{Leibniz International Proceedings in Informatics (LIPIcs)},
+  ISBN =	{978-3-95977-399-7},
+  ISSN =	{1868-8969},
+  year =	{2025},
+  volume =	{347},
+  editor =	{Schaeffer, Josie and Zhang, Fei},
+  publisher =	{Schloss Dagstuhl -- Leibniz-Zentrum f{\"u}r Informatik},
+  address =	{Dagstuhl, Germany},
+  URL =		{https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.DNA.31.3},
+  URN =		{urn:nbn:de:0030-drops-238521},
+  doi =		{10.4230/LIPIcs.DNA.31.3}
+}
+
+@article{Caballero:2025:NC,
+    title = {Uniform robot relocation is hard in only two directions even without obstacles},
+    journal = {Natural Computing},
+    volume = {24},
+    pages = {3–16},
+    year = {2025},
+    doi = {https://doi.org/10.1007/s11047-024-10007-4},
+    author = {David Caballero and Angel A. Cantu and Timothy Gomez and Austin Luchsinger and Robert Schweller and Tim Wylie }
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%2026
+
+@inproceedings{Avila:2026:ITCS,
+  title={General Computation Using Slidable Tiles with Deterministic Global Forces},
+  author={Avila-Jimenez, Alberto and Barreda, David and Evans, Sarah-Laurie and Luchsinger, Austin and Massie, Aiden and Schweller, Robert and Tomai, Evan and Wylie, Tim},
+  booktitle={17th Innovations in Theoretical Computer Science Conference (ITCS 2026)},
+  pages={14--1},
+  year={2026},
+  organization={Schloss Dagstuhl--Leibniz-Zentrum f{\"u}r Informatik}
+}
+
+@inproceedings{Bajaj:2026:SWAT,
+title={Reachability with Restricted Reactions in Inhibitory
+Chemical Reaction Networks},
+author={Bajaj, Divya and Fu, Bin and Knobel, Ryan and Luchsinger, Austin and Massie, Aiden and Santos, Pablo and Santos, Ramiro and Schweller, Robert and Tomai, Evan and Wylie, Tim},
+booktitle={To appear in proceedings of the 20th Scandinavian Symposium on Algorithm Theory (SWAT'26)},
+year={2026}
+}

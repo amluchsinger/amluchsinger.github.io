@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Research | Austin Luchsinger</title>
+  <link rel="stylesheet" href="css/style.css?v=20260925-monogram">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_molecular_16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_molecular_32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_molecular-180.png">
+<style>
+.research-page .paper-explanation { display: block; font-size: .9rem; margin-top: .25rem; }
+.research-page .topic-links li { margin-bottom: 1.1rem; }
+</style>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <nav class="navbar" aria-label="Main navigation">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">Austin Luchsinger</a>
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="teaching.html" class="nav-link">Teaching</a></li>
+        <li class="nav-item"><a href="research.html" class="nav-link active" aria-current="page">Research</a></li>
+        <li class="nav-item"><a href="pubs.html" class="nav-link">Publications</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main id="main" class="container research-page">
+    <section class="research-intro">
+      <h1>Research</h1>
+      <p>
+        My research lies broadly in <strong>unconventional computation</strong>, especially in mathematical models inspired by chemistry, thermodynamics, self-organization, and distributed control. I am interested in how ideas from computational complexity, information theory, thermodynamics, and the theory of computation can be used to understand the expressive power of abstract systems that resemble natural processes. Much of my work centers on molecular computing, algorithmic self-assembly, and robot motion planning.
+      </p>
+    </section>
+
+    <section class="research-topic">
+      <h2>Chemical Reaction Networks (CRNs)</h2>
+      <div class="topic-layout">
+        <div class="topic-text">
+          <p>
+            Chemical Reaction Networks (CRNs) are abstract mathematical models of interacting chemical species, where reactions transform multisets of molecules over time. They provide a clean framework for studying molecular computation, distributed algorithms, and dynamical systems within a common formal language. Depending on the setting, CRNs can be viewed as stochastic chemical processes, deterministic population-level systems, or count-based computational devices. My work studies the expressive power of CRNs and related variants, with particular emphasis on efficient simulation between models, the complexity of reachability and termination, and the effect of restricting reaction rules.
+          </p>
+        </div>
+
+        <figure class="topic-figure">
+          <img src="assets/research/crn-figure.png" alt="Illustration of a chemical reaction network">
+          <figcaption>
+            Example CRNs that compute (a) min(x_1,x_2) and (b) max(x_1,x_2).
+            <br>
+            <span class="figure-credit">Figure from or adapted from:
+              <a href="https://doi.org/10.1109/TCBB.2019.2952836" target="_blank" rel="noopener">
+                Composable Rate-Independent Computation in Continuous Chemical Reaction Networks
+              </a>
+            </span>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="topic-links"><h3>Selected papers</h3><ul><li><a href="https://doi.org/10.1073/pnas.2111552119">Programming and training rate-independent chemical reaction networks</a> <span class="paper-note">PNAS 2022</span><span class="paper-explanation">Develops ways to program reaction networks whose answers do not depend on precise reaction rates, including translating trained neural networks into CRNs and demonstrating their behavior through simulations.</span></li><li><a href="https://doi.org/10.4230/LIPIcs.DNA.29.9">Optimal Information Encoding in Chemical Reaction Networks</a> <span class="paper-note">DNA29, 2023</span><span class="paper-explanation">Asks how compactly reaction rules can encode a program that produces an exact number of molecules, and establishes optimal bounds under the paper’s computation requirements.</span></li><li><a href="https://doi.org/10.4230/LIPIcs.DNA.31.3">Reachability in Deletion-Only Chemical Reaction Networks</a> <span class="paper-note">DNA31, 2025</span><span class="paper-explanation">Studies how difficult it is to determine which outcomes are possible when reactions can only remove molecules.</span></li></ul></div>
+    </section>
+
+    <section class="research-topic">
+      <h2>Thermodynamic Binding Networks (TBNs)</h2>
+      <div class="topic-layout reverse">
+        <div class="topic-text">
+          <p>
+            Thermodynamic Binding Networks (TBNs) are equilibrium models of molecular systems that focus on which assemblies are energetically favored, rather than the order in which they form. In a TBN, monomers bind through complementary domains to form polymers, and stable outcomes are determined by the competition between enthalpy, which favors additional bonds, and entropy, which favors larger numbers of separate complexes. This makes TBNs a useful abstraction for reasoning about self-organization and DNA nanotechnology at thermodynamic equilibrium. My work investigates the expressive limits of TBNs, the complexity of predicting stable and reachable configurations, and their relationship to more abstract thermodynamic models such as Thermodynamic Affinity Networks.
+          </p>
+        </div>
+
+        <figure class="topic-figure">
+          <img src="assets/research/tbn-figure.png" alt="Illustration of a thermodynamic binding network">
+          <figcaption>
+            Example TBN monomers and polymers illustrating enthalpy/entropy tradeoffs.
+            <br>
+            <span class="figure-credit">Figure from or adapted from:
+              <a href="pubs.html" rel="noopener">
+                Brief Announcement: Barrier-1 Reachability for Thermodynamic Binding Networks is PSPACE-complete
+              </a>
+            </span>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="topic-links"><h3>Selected papers</h3><ul><li><a href="https://doi.org/10.4230/LIPIcs.DNA.32.9">Thermodynamic Binding Networks Capture Equilibrium Monomer-Polymer Thermodynamics</a> <span class="paper-note">DNA32, 2026</span><span class="paper-explanation">Shows that TBNs can represent the stable configurations of a more general model that assigns favorability to whole complexes, helping explain the expressive power of simple binding rules.</span></li><li><a href="https://doi.org/10.4230/LIPIcs.SAND.2022.24">Brief Announcement: Barrier-1 Reachability for Thermodynamic Binding Networks Is PSPACE-Complete</a> <span class="paper-note">SAND 2022</span><span class="paper-explanation">Shows that deciding whether two configurations can be connected through a tightly limited energy barrier can be computationally difficult.</span></li></ul></div>
+    </section>
+
+    <section class="research-topic">
+      <h2>Tile Self-Assembly</h2>
+      <div class="topic-layout">
+        <div class="topic-text">
+          <p>
+            Tile self-assembly studies how simple components with local binding rules can spontaneously organize into larger structures without centralized control. In these models, tiles act as programmable units whose compatible edges determine how assemblies grow, allowing geometry and computation to emerge from local interactions alone. Inspired by DNA tile nanotechnology, this area connects algorithm design, distributed computation, and the mathematics of shape formation. My work in tile self-assembly explores the power and limitations of various assembly models, including systems with repulsion, temperature changes, and signal passing, as well as how these models can build shapes or simulate other forms of computation.
+          </p>
+        </div>
+
+        <figure class="topic-figure">
+          <img src="assets/research/tile-figure.png" alt="Illustration of tile self-assembly">
+          <figcaption>
+            Example seeded growth or programmable tile assembly process.
+            <br>
+            <span class="figure-credit">Figure from or adapted from:
+              <a href="https://doi.org/10.1007/s00453-020-00764-w" target="_blank" rel="noopener">
+                Covert Computation in Self-Assembled Circuits
+              </a>
+            </span>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="topic-links"><h3>Selected papers</h3><ul><li><a href="https://doi.org/10.1007/s00453-020-00764-w">Covert Computation in Self-Assembled Circuits</a> <span class="paper-note">ICALP 2019 / Algorithmica 2021</span><span class="paper-explanation">Constructs self-assembling circuits that conceal their input and computational history while still reporting an output, using attractive and repulsive interactions.</span></li><li><a href="https://doi.org/10.1007/s11047-018-9707-9">Self-assembly of Shapes at Constant Scale Using Repulsive Forces</a> <span class="paper-note">UCNC 2017 / Natural Computing 2019</span><span class="paper-explanation">Investigates how repulsive interactions can help efficiently assemble shapes while keeping the enlargement of the target shape bounded by a constant factor.</span></li><li><a href="https://doi.org/10.4230/LIPIcs.ESA.2018.14">Self-Assembly of Any Shape with Constant Tile Types using High Temperature</a> <span class="paper-note">ESA 2018</span><span class="paper-explanation">Shows how changing binding strengths and the attachment threshold can encode different target shapes using a fixed set of tile types. Here “temperature” is the model’s binding-strength threshold.</span></li></ul></div>
+    </section>
+
+    <section class="research-topic">
+      <h2>Robot Motion Planning</h2>
+      <div class="topic-layout reverse">
+        <div class="topic-text">
+          <p>
+            My work on robot motion planning focuses on highly constrained settings where large numbers of simple robots move under uniform global control signals rather than independent commands. In these models, every robot receives the same instruction at the same time, so geometry, obstacles, and swarm interactions determine what collective behaviors are possible. These systems are motivated by applications in microrobotics, programmable matter, and large-scale swarm control, and they raise natural questions about reachability, relocation, reconfiguration, and computational hardness. My research studies both the algorithmic possibilities and the complexity-theoretic limitations of such globally controlled robotic systems.
+          </p>
+        </div>
+
+        <figure class="topic-figure">
+          <img src="assets/research/tilt-figure.png" alt="Illustration of robot motion planning under uniform control">
+          <figcaption>
+            Example swarm relocation or reconfiguration under global directional control.
+            <br>
+            <span class="figure-credit">Figure from or adapted from:
+              <a href="https://doi.org/10.1007/s11047-024-10007-4" target="_blank" rel="noopener">
+                Uniform Robot Relocation is Hard in Only Two Directions Even Without Obstacles
+              </a>
+            </span>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="topic-links"><h3>Selected papers</h3><ul><li><a href="https://doi.org/10.1137/1.9781611975482.167">Full Tilt: Universal Constructors for General Shapes with Uniform External Forces</a> <span class="paper-note">SODA 2019</span><span class="paper-explanation">Designs universal arrangements that can build families of shapes and patterns by changing the sequence of global directional commands.</span></li><li><a href="https://doi.org/10.1137/1.9781611975994.160">Hierarchical Shape Construction and Complexity for Slidable Polyominoes under Uniform External Forces</a> <span class="paper-note">SODA 2020</span><span class="paper-explanation">Introduces a hierarchy of shapes and a shared-control construction that can build any size-bounded shape in that hierarchy. It also shows that deciding whether a target position can be occupied is computationally difficult even with simple square tiles.</span></li><li><a href="https://doi.org/10.4230/LIPIcs.ITCS.2026.14">General Computation Using Slidable Tiles with Deterministic Global Forces</a> <span class="paper-note">ITCS 2026</span><span class="paper-explanation">Shows that slidable tiles can simulate general-purpose computation even when the driving commands repeat in a fixed clockwise cycle.</span></li></ul></div>
+    </section>
+
+    <section class="research-topic"><h2>Interested in exploring these ideas?</h2><p>If you enjoy puzzles, algorithms, or asking why a system must behave a certain way, these topics offer many places to start. Research can involve constructing small examples, writing simulations, looking for counterexamples, and developing proofs.</p><p>You do not need to understand the selected papers before getting in touch. Tell me which example caught your attention and what you would like to learn: <a href="mailto:austin.luchsinger@utrgv.edu">austin.luchsinger@utrgv.edu</a>.</p><p><a href="pubs.html">Browse all publications</a></p></section>
+
+    <section class="research-topic collaborators-section">
+      <h2>Collaborators</h2>
+      <p>
+        I have been fortunate to collaborate with researchers and students across molecular computing, self-assembly, algorithms, and swarm motion planning, including Alberto Avila-Jimenez, Divya Bajaj, Jose Balanza-Martinez, David Barreda, Keenan Breik, David Caballero, Angel Adrian Cantu, Jose-Luis Castellanos, Cameron Chalk, David Doty, Sarah-Laurie Evans, Mauricio Flores, Bin Fu, Luis Angel Garcia, Timothy Gomez, Arturo Gonzalez, Sarfraz Khurshid, Ryan Knobel, Cesar Lozano, Eric Martinez, Fernando Martinez, Aiden Massie, Eduardo Medina, Arnoldo Ramirez, Rene Reyes, Marco Rodriguez, Adrian Salinas, Pablo Santos, Ramiro Santos, Robert Schweller, David Soloveichik, Evan Tomai, Marko Vasić, Andrew Winslow, Tim Wylie, and And Kaan Ata Yilmaz.
+      </p>
+    </section>
+  </main>
+
+  <footer class="container">
+    <p>&copy; 2026 Austin Luchsinger | Made with ChatGPT</p>
+  </footer>
+</body>
+</html>
